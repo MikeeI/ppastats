@@ -1,0 +1,1 @@
+SUBDIRS = default/templates default/css default/js
