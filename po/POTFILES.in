@@ -1,0 +1,7 @@
+# List of source files which contain translatable strings.
+src/cache.c
+src/html.c
+src/plog.c
+src/lp_ws.c
+src/main.c
+src/ppastats.c

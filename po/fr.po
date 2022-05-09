@@ -1,0 +1,154 @@
+# French translations for ppastats package.
+# Copyright (C) 2012 Free Software Foundation, Inc.
+# This file is distributed under the same license as the ppastats package.
+#  <jeanfi@gmail.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ppastats 0.0.x\n"
+"Report-Msgid-Bugs-To: jeanfi@gmail.com\n"
+"POT-Creation-Date: 2015-09-12 12:35+0200\n"
+"PO-Revision-Date: 2012-05-05 23:45+0200\n"
+"Last-Translator:  <jeanfi@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: src/cache.c:57
+#, c-format
+msgid "cache hit %s"
+msgstr ""
+
+#: src/cache.c:62
+#, c-format
+msgid "memory cache miss %s"
+msgstr ""
+
+#: src/cache.c:71
+msgid "exceed cache capacity"
+msgstr ""
+
+#: src/html.c:408
+msgid "Failed to get the header template"
+msgstr ""
+
+#: src/html.c:415
+#, c-format
+msgid "Failed to open: %s"
+msgstr ""
+
+#: src/html.c:461
+#, c-format
+msgid "generating %s"
+msgstr ""
+
+#: src/html.c:528 src/html.c:541
+#, c-format
+msgid "Generating %s"
+msgstr ""
+
+#: src/plog.c:43
+#, c-format
+msgid "Cannot open log file: %s"
+msgstr ""
+
+#: src/main.c:108
+#, fuzzy, c-format
+msgid ""
+"Copyright (C) %s jeanfi@gmail.com\n"
+"License GPLv2: GNU GPL version 2 or later\n"
+"<http://www.gnu.org/licenses/old-licenses/gpl-2.0.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Copyright (C) %s wpitchoune@gmail.com\n"
+"Licence GPLv2: GNU GPL version 3 ou ultérieure<http://www.gnu.org/licenses/"
+"old-licenses/gpl-2.0.html>\n"
+"Ceci est un logiciel libre, vous êtes libre de le modifier et de le \n"
+"redistribuer.\n"
+"Ce logiciel n'est accompagné d’ABSOLUMENT AUCUNE GARANTIE, dans les limites\n"
+"autorisées par la loi applicable.\n"
+
+#: src/main.c:118
+#, c-format
+msgid "Usage: %s [OPTION]... PPA_OWNER PPA_NAME\n"
+msgstr "Utilisation: %s [OPTION]... PPA_OWNER PPA_NAME\n"
+
+#: src/main.c:121
+msgid "ppastats is a command application for generating PPA statistics.\n"
+msgstr ""
+
+#: src/main.c:123
+msgid ""
+"Prints number of downloads for each published packages of a PPA or "
+"generates\n"
+"an HTML page containing a graph representation."
+msgstr ""
+
+#: src/main.c:127
+msgid "Options:"
+msgstr "Options:"
+
+#: src/main.c:128
+#, fuzzy
+msgid "  -h, --help          display this help and exit"
+msgstr ""
+"  -h, --help          afficher cette aide et quitter\n"
+"  -v, --version       afficher les informations de version et quitter"
+
+#: src/main.c:129
+msgid "  -v, --version       display version information and exit"
+msgstr "  -v, --version       afficher les informations de version et quitter"
+
+#: src/main.c:133
+msgid "  -o, --output-dir=[PATH]  generates HTML pages into 'PATH'"
+msgstr ""
+
+#: src/main.c:134
+msgid "  -t, --theme-dir=[PATH]   set theme dir to 'PATH'"
+msgstr ""
+
+#: src/main.c:137
+msgid ""
+"  -s, --status=[STATUS]    retrieves only package of the given status\n"
+"                           (possible values are: Pending, Published,\n"
+"                           Superseded, Deleted or Obsolete)"
+msgstr ""
+
+#: src/main.c:142
+msgid " -S, --skip-js-css         skip installation of js and css files"
+msgstr ""
+
+#: src/main.c:144
+msgid ""
+" --get-bpph-size=[s]       size of the replies of webservice requests to "
+"get\n"
+"                           the list of binary packages. Between 1 and 300."
+msgstr ""
+
+#: src/main.c:148
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr ""
+
+#: src/main.c:150
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr ""
+
+#: src/main.c:211
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr ""
+
+#: src/ppastats.c:363
+msgid "Failed to retrieve PPA information"
+msgstr ""
+
+#: src/ppastats.c:374
+#, c-format
+msgid "Failed to retrieve download totals for %s"
+msgstr ""
