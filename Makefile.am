@@ -1,0 +1,6 @@
+SUBDIRS = po src tests themes
+dist_doc_DATA = COPYING NEWS AUTHORS INSTALL
+
+ACLOCAL_AMFLAGS = -I m4
+
+EXTRA_DIST = m4/ChangeLog

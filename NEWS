@@ -1,0 +1,121 @@
+v1.3.3
+------
+
+* added total number of downloads in the package html pages.
+* sort the list of version in decrease order in the package html
+  pages.
+
+v1.3.2
+------
+
+* fixed compilation against newer version of json-c (deprecation
+  of the function json_object_object_get).
+* fixed layout issues due to missing box-sizing properties.
+* fixed file description leaks.
+
+v1.3.1
+------
+
+* fixed compilation when cppcheck is not installed.
+* fixed line over 80cols.
+
+v1.3.0
+------
+
+* split LP ddts requests when LP cannot retrieve all ddts with a uniq
+  request.
+
+v1.2.0
+------
+
+* added date created information in the generated HTML for a package
+  version.
+* added command line option to specify the theme directory (-t).
+* log file is put into $HOME/.ppastats dir instead of current dir.
+
+v1.1.0
+------
+
+* Fixed uninitialized struct fields bug leading to random errors.
+* perf: keep track of the ddts older than 4 weeks).
+* perf: sum ddts to compute total downloads instead of LP query.
+* Debug log stored into a file (ppastats.log).
+* Fixed multiple memory leaks.
+* Fixed missing memory release on exist to make valgrind happy.
+
+v1.0.0
+------
+
+* new design for HTML pages.
+* fixed compilation issue with old json lib releases using
+  boolean type and not defining json_bool.
+* fixed compilation with libjson-c-dev debian package.
+
+v0.0.9
+------
+
+* Fixed compilation issue related to 'boolean' type.
+
+v0.0.8
+------
+
+* set transfer encoding to gzip as recommended by LP documentation.
+   Only supported since Curl 7.21.6
+* persistent cache for distro and arch information.
+* fixed a '"' in the html output of the package page.
+* added --get-bpph-size to specify the size of the requests to get
+   the list of binary packages.
+
+v0.0.7
+------
+
+* More crash-resistant on network failure (patch from Peter
+  Lekensteyn).
+* Retry HTTP request on LP Oops (patch from Peter Lekensteyn).
+* Added intl support.
+* Increased HTTP requests performance: group result for
+  getPublishedBinaries by 300 instead of 75 (patch from Peter
+  Lekensteyn).
+* HTML template pages are now in [prefix]/share/psensor/www
+
+v0.0.6
+------
+
+* added support of ie < 9.
+* fixed JSON not available in ie8. 
+
+v0.0.5
+------
+
+* Added information about distribution in the package page.
+* Added distribution chart in the package page.
+* HTML output: data are generated in a separate JSON file.
+* HTML output: fixed pkg chart not displayed when distro with
+   download count of 0.
+
+v0.0.4
+------
+
+* Fixed memory issue (patch submitted by Lekensteyn).
+* Added help for -s option.
+* Don't generate manpage if help2man not present.
+* Generate html page for the PPA.
+* Renamed --output_dir option to --output-dir.
+* Added -S option (patch submitted by Lekensteyn).
+
+v0.0.3
+------
+
+* Generated HTML pages for package versions.
+* Added distro/arch information in package version page.
+
+v0.0.2
+------
+
+* Generated HTML pages are now using JQuery+JQPlot instead of Google Chart.
+* Added check target.
+
+v0.0.1
+------
+
+* Initial release.
